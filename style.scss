@@ -1,0 +1,380 @@
+
+/* Style Guide Styles */
+
+/* -- Variables -- */
+
+$white: #ffffff;
+$orange: #FF6700;
+$dark-orange: #D95C07;
+$teal: #4E9997;
+$medium-teal: #3D7978;
+$green: #264748;
+$dark-green: #1B3234;
+$light-gray: #f6f6f6;
+$gray: #E7E7E7;
+
+
+$sans-serif: 'bio-sans', sans-serif;
+
+/* -- General Styles -- */
+
+body, html {
+  overflow-x:
+  hidden;margin: 0;
+  padding: 0;
+  background-color: $light-gray;
+}
+
+a {
+  font-weight: 700;
+  color: $dark-green !important;
+  transition: ease-in 0.3s;
+}
+
+a:hover {
+  font-weight: 700;
+  color: $green !important;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+  line-height: 180%;
+  padding-inline-start: 0px;
+}
+
+/* - Typography -*/
+
+h1 {
+  font-family: $sans-serif;
+  font-size: 38px;
+  color: $gray;
+  line-height: 45.7px;
+}
+
+h2 {
+  font-family: $sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 700;
+  font-family: $sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: $sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 45.7px;
+}
+
+h5 {
+  font-family: $sans-serif;
+  font-size: 28px;
+}
+
+h6 {
+  font-family: $sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+p {
+  font-family: $sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+li {
+  font-family: $sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+/* -- Navigation -- */
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-brand {
+  // margin-bottom: -50px;
+  height: 70px;
+  position: relative;
+  z-index: 2;
+  margin-top: -9px;
+  margin-left: -8px;
+}
+
+.navbar-toggler {
+  z-index: 1000;
+  border: 1px solid $light-gray;
+}
+
+.navbar-toggler-icon {
+  content: "Menu";
+}
+
+.navbar-nav {
+  max-height: 60px;
+}
+
+.nav-link  {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  outline: none;
+  border-radius: 0px;
+  margin: 0 10px;
+  padding: 10px 40px;
+  border: 2px solid transparent;
+}
+
+.nav-item {
+  margin-top: 15px;
+}
+
+.nav-item a {
+  color: $light-gray !important;
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  outline: none;
+  margin: 0 10px;
+  padding: 10px 40px;
+}
+
+.naveffect {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.naveffect:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: $light-gray;
+  transform: translateX(-100%);
+}
+
+.naveffect:hover:before {
+  transform: translateX(0);
+}
+
+.naveffect {
+  color: $gray;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* -- Buttons -- */
+
+.main-button {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  background: $teal;
+  color: $light-gray !important;
+  padding: 20px 30px;
+  transition: ease-in 0.3s;
+  border-radius: 0px;
+}
+
+.main-button:hover {
+  color: $light-gray !important;
+  background: $medium-teal;
+  transition: ease-in 0.3s;
+  border-radius: 20px 0px;
+  text-decoration: none;
+}
+
+.alt-button-1 {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  background: $orange;
+  color: $light-gray !important;
+  padding: 20px 30px;
+  transition: ease-in 0.3s;
+  border-radius: 0px;
+}
+
+.alt-button-1:hover {
+  color: $light-gray !important;
+  background: $dark-orange;
+  transition: ease-in 0.3s;
+  border-radius: 20px 0px;
+  text-decoration: none;
+}
+
+
+
+.alt-button {
+  font-family: $sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  // background: $med-brown;
+  color: $light-gray !important;
+  padding: 15px 25px;
+  transition: ease-in 0.3s;
+  border-radius: 0px;
+  border-bottom: 5px solid $orange;
+}
+
+.alt-button:hover {
+  color: $light-gray !important;
+  font-weight: 400;
+  // background: $dark-brown;
+  transition: ease-in 0.3s;
+  // border-bottom: 5px solid $med-brown;
+  text-decoration: none;
+}
+
+
+/* --- Main Body ---- */
+
+.banner {
+  background: url(images/hunting.jpg);
+  background-size: cover;
+  min-height: 350px;
+  // margin-top: -90px;
+}
+
+.interior-banner {
+  background: url(images/hunting.jpg);
+  background-size: cover;
+  min-height: 350px;
+  margin-top: -90px;
+}
+
+.banner h1 {
+  color: #ffffff;
+  // margin-top: 90px;
+  line-height: 71.55px;
+  text-align: center;
+}
+
+.interior-hero-text {
+  margin-top: 130px;
+  text-align: center;
+}
+
+/* -- Home -- */
+
+.home-banner {
+  background: url(images/hunting.jpg) no-repeat top;
+  background-size: cover;
+  border-radius: 40px 0px;
+  border: 20px solid #ffffff;
+  min-height: 75vh;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  // animation: zoom 100s infinite alternate;
+  // animation-timing-function: linear;
+}
+
+
+.home-banner h1 {
+  color: #ffffff;
+  line-height: 57px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-copy {
+  padding: 150px 30px;
+}
+
+.button-block {
+  margin-top: 40px;
+}
+
+.button-block .first {
+  margin-right: 10px;
+}
+
+.hero-logos {
+  background: $white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  max-height: 100px;
+  width: 280px;
+  padding: 20px;
+  border-radius: 30px 0;
+  margin-bottom: 20px;
+}
+
+.home .larger {
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+
+
+/* Interior Page */
+
+
+.interior-page {
+  background: #ffffff;
+}
+
+.interior-page h2 {
+}
+
+.interior-page {
+  color: #3D342B;
+}
+
+.interior-header .container {
+  padding-left: 0px;
+}
+
+.interior-header {
+  width: 100%;
+  padding: 40px 0px;
+  max-height: 625px;
+  background: #817E72;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.interior-header h1 {
+  color: #ffffff;
+}
