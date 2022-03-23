@@ -17,78 +17,21 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
-    "\/contact.html" : {
+    "\/becomeamentor.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/contact.html",
+      "oAP" : "\/becomeamentor.html",
       "oF" : 0
     },
-    "\/images\/bio-photo.png" : {
-      "ft" : 32768,
-      "iS" : 2810,
+    "\/findamentor.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/bio-photo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/card-5.png" : {
-      "ft" : 32768,
-      "iS" : 84033,
-      "oA" : 0,
-      "oAP" : "\/images\/card-5.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/card-6.png" : {
-      "ft" : 32768,
-      "iS" : 92405,
-      "oA" : 0,
-      "oAP" : "\/images\/card-6.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/card-7.png" : {
-      "ft" : 32768,
-      "iS" : 403637,
-      "oA" : 0,
-      "oAP" : "\/images\/card-7.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/fws.png" : {
-      "ft" : 32768,
-      "iS" : 92604,
-      "oA" : 0,
-      "oAP" : "\/images\/fws.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "oAP" : "\/findamentor.html",
+      "oF" : 0
     },
     "\/images\/Home\/cropped-Header-logo-2 3.png" : {
       "ft" : 32768,
@@ -98,6 +41,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Home\/Group 60.png" : {
+      "ft" : 32768,
+      "iS" : 1097956,
+      "oA" : 0,
+      "oAP" : "\/images\/Home\/Group 60.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -121,6 +77,45 @@
       "iS" : 11071,
       "oA" : 0,
       "oAP" : "\/images\/Home\/IHEA-USA-Logo-1 4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Home\/LEARNHUNTING.ORG.png" : {
+      "ft" : 32768,
+      "iS" : 4225,
+      "oA" : 0,
+      "oAP" : "\/images\/Home\/LEARNHUNTING.ORG.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Home\/nicole1.png" : {
+      "ft" : 32768,
+      "iS" : 1086139,
+      "oA" : 0,
+      "oAP" : "\/images\/Home\/nicole1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Home\/Rectangle 77.png" : {
+      "ft" : 32768,
+      "iS" : 1086139,
+      "oA" : 0,
+      "oAP" : "\/images\/Home\/Rectangle 77.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -181,6 +176,55 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/image-placeholder.png" : {
+      "ft" : 32768,
+      "iS" : 8671,
+      "oA" : 0,
+      "oAP" : "\/images\/image-placeholder.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/images\/Home\/“.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/images\/Home\/“.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/images\/Home\/Group 69.png" : {
+      "ft" : 32768,
+      "iS" : 7885,
+      "oA" : 0,
+      "oAP" : "\/images\/images\/Home\/Group 69.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/logo-alt.png" : {
+      "ft" : 32768,
+      "iS" : 10154,
+      "oA" : 0,
+      "oAP" : "\/images\/logo-alt.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/logo.png" : {
       "ft" : 32768,
       "iS" : 27215,
@@ -194,37 +238,34 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/practice-preach-bg.jpg" : {
+    "\/images\/nicole.jpg" : {
       "ft" : 16384,
-      "iS" : 184745,
+      "iS" : 205823,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/practice-preach-bg.jpg",
+      "oAP" : "\/images\/nicole.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/images\/quote.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/quote.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/images\/state.png" : {
       "ft" : 32768,
       "iS" : 31852,
       "oA" : 0,
       "oAP" : "\/images\/state.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/team-member.png" : {
-      "ft" : 32768,
-      "iS" : 2521709,
-      "oA" : 0,
-      "oAP" : "\/images\/team-member.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -259,12 +300,33 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/video-testimonial.png" : {
+      "ft" : 32768,
+      "iS" : 7885,
+      "oA" : 0,
+      "oAP" : "\/images\/video-testimonial.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.html",
+      "oF" : 0
+    },
+    "\/mentor.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mentor.html",
       "oF" : 0
     },
     "\/style.css" : {
@@ -303,7 +365,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 665439483.58924305,
-    "displayValue" : "learnhunting",
+    "displayValue" : "learnhuntingorg",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_green",
     "iconImageWasSetByUser" : 0

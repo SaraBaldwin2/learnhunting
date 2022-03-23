@@ -22,18 +22,19 @@ body, html {
   overflow-x:
   hidden;margin: 0;
   padding: 0;
-  background-color: $light-gray;
+  background-color: $white;
+  color: $dark-green;
 }
 
 a {
   font-weight: 700;
-  color: $dark-green !important;
+  color: $medium-teal !important;
   transition: ease-in 0.3s;
 }
 
 a:hover {
   font-weight: 700;
-  color: $green !important;
+  color: $teal !important;
   text-decoration: none;
 }
 
@@ -57,13 +58,15 @@ h2 {
   font-family: $sans-serif;
   font-size: 32px;
   font-weight: 600;
+  color: $green;
 }
 
 h3 {
   font-weight: 700;
   font-family: $sans-serif;
+  color: $white;
   font-size: 20px;
-  text-transform: uppercase;
+  line-height: 180%;
 }
 
 h4 {
@@ -91,13 +94,20 @@ h6 {
 p {
   font-family: $sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
+  line-height: 182%;
 }
 
 li {
   font-family: $sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+figcaption {
+  color: $orange;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .container-fluid {
@@ -164,30 +174,6 @@ li {
   padding: 10px 40px;
 }
 
-.naveffect {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  overflow: hidden;
-}
-
-.naveffect:before {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: $light-gray;
-  transform: translateX(-100%);
-}
-
-.naveffect:hover:before {
-  transform: translateX(0);
-}
-
-.naveffect {
-  color: $gray;
-}
-
 .navbar-nav > li{
   padding-left:10px;
   padding-right:10px;
@@ -200,10 +186,10 @@ li {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+  text-shadow: 0px 4px 5px rgb(38 71 72 / 25%);
   text-transform: uppercase;
   background: $teal;
-  color: $light-gray !important;
+  color: $white !important;
   padding: 20px 30px;
   transition: ease-in 0.3s;
   border-radius: 0px;
@@ -222,45 +208,20 @@ li {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+  text-shadow: 0px 4px 5px rgb(171 69 0 / 25%);
   text-transform: uppercase;
   background: $orange;
-  color: $light-gray !important;
+  color: $white !important;
   padding: 20px 30px;
   transition: ease-in 0.3s;
   border-radius: 0px;
 }
 
 .alt-button-1:hover {
-  color: $light-gray !important;
+  color: $white !important;
   background: $dark-orange;
   transition: ease-in 0.3s;
   border-radius: 20px 0px;
-  text-decoration: none;
-}
-
-
-
-.alt-button {
-  font-family: $sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  // background: $med-brown;
-  color: $light-gray !important;
-  padding: 15px 25px;
-  transition: ease-in 0.3s;
-  border-radius: 0px;
-  border-bottom: 5px solid $orange;
-}
-
-.alt-button:hover {
-  color: $light-gray !important;
-  font-weight: 400;
-  // background: $dark-brown;
-  transition: ease-in 0.3s;
-  // border-bottom: 5px solid $med-brown;
   text-decoration: none;
 }
 
@@ -272,13 +233,6 @@ li {
   background-size: cover;
   min-height: 350px;
   // margin-top: -90px;
-}
-
-.interior-banner {
-  background: url(images/hunting.jpg);
-  background-size: cover;
-  min-height: 350px;
-  margin-top: -90px;
 }
 
 .banner h1 {
@@ -305,8 +259,6 @@ li {
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
-  // animation: zoom 100s infinite alternate;
-  // animation-timing-function: linear;
 }
 
 
@@ -325,6 +277,23 @@ li {
   margin-top: 40px;
 }
 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .image-wrap {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5% 5% 5% 5%;
+   height: 250px;
+   width: 300px;
+   overflow: hidden;
+   filter: drop-shadow(20px 20px 0px #4E9997);
+ }
+
 .button-block .first {
   margin-right: 10px;
 }
@@ -339,42 +308,81 @@ li {
   margin-bottom: 20px;
 }
 
+.interior-banner .hero-logos {
+    margin-bottom: -60px;
+}
+
 .home .larger {
   font-size: 55px;
   text-transform: uppercase;
 }
 
 
+/* Testimonial Section */
+
+.testimonial {
+  background: $green;
+}
+
+.video {
+  box-shadow: 0px 4px 20px 10px rgba(78, 153, 151, 0.4);
+
+}
+
+/* Testimonial Section */
+
+.testimonial-2 {
+  background: $white;
+}
+
+.testimonial-2 h3 {
+  color: $dark-green;
+}
+
+.video {
+  box-shadow: 0px 4px 20px 10px rgba(78, 153, 151, 0.4);
+
+}
+
+/* Footer */
+
+.footer {
+  background-color: $dark-green;
+}
+
+.footer a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: $white !important;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+
+.footer a:hover {
+  color: $orange !important;
+}
 
 /* Interior Page */
 
-
-.interior-page {
-  background: #ffffff;
+.interior-banner {
+  background: url(images/hunting.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 40px 0px;
+  border: 20px solid #ffffff;
+  min-height: 50vh;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
-.interior-page h2 {
-}
-
-.interior-page {
-  color: #3D342B;
-}
-
-.interior-header .container {
-  padding-left: 0px;
-}
-
-.interior-header {
-  width: 100%;
-  padding: 40px 0px;
-  max-height: 625px;
-  background: #817E72;
+.interior-banner h1 {
   color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
+  line-height: 57px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.interior-header h1 {
-  color: #ffffff;
+.interior-banner .hero-copy {
+  padding: 80px 95px;
 }

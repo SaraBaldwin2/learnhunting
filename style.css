@@ -5,18 +5,19 @@ body, html {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
+  color: #1B3234;
 }
 
 a {
   font-weight: 700;
-  color: #1B3234 !important;
+  color: #3D7978 !important;
   transition: ease-in 0.3s;
 }
 
 a:hover {
   font-weight: 700;
-  color: #264748 !important;
+  color: #4E9997 !important;
   text-decoration: none;
 }
 
@@ -38,13 +39,15 @@ h2 {
   font-family: "bio-sans", sans-serif;
   font-size: 32px;
   font-weight: 600;
+  color: #264748;
 }
 
 h3 {
   font-weight: 700;
   font-family: "bio-sans", sans-serif;
+  color: #ffffff;
   font-size: 20px;
-  text-transform: uppercase;
+  line-height: 180%;
 }
 
 h4 {
@@ -72,13 +75,20 @@ h6 {
 p {
   font-family: "bio-sans", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
+  line-height: 182%;
 }
 
 li {
   font-family: "bio-sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+figcaption {
+  color: #FF6700;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .container-fluid {
@@ -143,30 +153,6 @@ li {
   padding: 10px 40px;
 }
 
-.naveffect {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  overflow: hidden;
-}
-
-.naveffect:before {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: #f6f6f6;
-  transform: translateX(-100%);
-}
-
-.naveffect:hover:before {
-  transform: translateX(0);
-}
-
-.naveffect {
-  color: #E7E7E7;
-}
-
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
@@ -178,10 +164,10 @@ li {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 5px rgba(38, 71, 72, 0.25);
   text-transform: uppercase;
   background: #4E9997;
-  color: #f6f6f6 !important;
+  color: #ffffff !important;
   padding: 20px 30px;
   transition: ease-in 0.3s;
   border-radius: 0px;
@@ -200,40 +186,20 @@ li {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
-  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 5px rgba(171, 69, 0, 0.25);
   text-transform: uppercase;
   background: #FF6700;
-  color: #f6f6f6 !important;
+  color: #ffffff !important;
   padding: 20px 30px;
   transition: ease-in 0.3s;
   border-radius: 0px;
 }
 
 .alt-button-1:hover {
-  color: #f6f6f6 !important;
+  color: #ffffff !important;
   background: #D95C07;
   transition: ease-in 0.3s;
   border-radius: 20px 0px;
-  text-decoration: none;
-}
-
-.alt-button {
-  font-family: "bio-sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #f6f6f6 !important;
-  padding: 15px 25px;
-  transition: ease-in 0.3s;
-  border-radius: 0px;
-  border-bottom: 5px solid #FF6700;
-}
-
-.alt-button:hover {
-  color: #f6f6f6 !important;
-  font-weight: 400;
-  transition: ease-in 0.3s;
   text-decoration: none;
 }
 
@@ -242,13 +208,6 @@ li {
   background: url(images/hunting.jpg);
   background-size: cover;
   min-height: 350px;
-}
-
-.interior-banner {
-  background: url(images/hunting.jpg);
-  background-size: cover;
-  min-height: 350px;
-  margin-top: -90px;
 }
 
 .banner h1 {
@@ -290,6 +249,23 @@ li {
   margin-top: 40px;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-wrap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5% 5% 5% 5%;
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+  filter: drop-shadow(20px 20px 0px #4E9997);
+}
+
 .button-block .first {
   margin-right: 10px;
 }
@@ -304,35 +280,74 @@ li {
   margin-bottom: 20px;
 }
 
+.interior-banner .hero-logos {
+  margin-bottom: -60px;
+}
+
 .home .larger {
   font-size: 55px;
   text-transform: uppercase;
 }
 
-/* Interior Page */
-.interior-page {
+/* Testimonial Section */
+.testimonial {
+  background: #264748;
+}
+
+.video {
+  box-shadow: 0px 4px 20px 10px rgba(78, 153, 151, 0.4);
+}
+
+/* Testimonial Section */
+.testimonial-2 {
   background: #ffffff;
 }
 
-.interior-page {
-  color: #3D342B;
+.testimonial-2 h3 {
+  color: #1B3234;
 }
 
-.interior-header .container {
-  padding-left: 0px;
+.video {
+  box-shadow: 0px 4px 20px 10px rgba(78, 153, 151, 0.4);
 }
 
-.interior-header {
-  width: 100%;
-  padding: 40px 0px;
-  max-height: 625px;
-  background: #817E72;
-  color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
+/* Footer */
+.footer {
+  background-color: #1B3234;
+}
+
+.footer a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+
+.footer a:hover {
+  color: #FF6700 !important;
+}
+
+/* Interior Page */
+.interior-banner {
+  background: url(images/hunting.jpg) no-repeat center;
   background-size: cover;
+  border-radius: 40px 0px;
+  border: 20px solid #ffffff;
+  min-height: 50vh;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
-.interior-header h1 {
+.interior-banner h1 {
   color: #ffffff;
+  line-height: 57px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.interior-banner .hero-copy {
+  padding: 80px 95px;
 }
