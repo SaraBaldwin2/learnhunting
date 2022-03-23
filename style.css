@@ -227,7 +227,7 @@ figcaption {
   background-size: cover;
   border-radius: 40px 0px;
   border: 20px solid #ffffff;
-  min-height: 75vh;
+  min-height: 100vh;
   -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
